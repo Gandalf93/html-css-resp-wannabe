@@ -99,10 +99,9 @@ img {
   background-color: white;
 }
 
-
-
-  .row::after{
-    display: block;
-  }
+.row::after{
+  display: block;
+}
 
 }
+
