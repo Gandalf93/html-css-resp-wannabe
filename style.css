@@ -71,3 +71,32 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* MOBILE-FIRST */
+
+@media screen and (max-width:420px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: unset;
+    float: none;
+    background-color: #F2F2CD;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: unset;
+  background-color: white;
+}
+
+.container.grey {
+  background-color: #F2F2CD;
+}
+
+  .row::after{
+    display: block;
+  }
+
+}
