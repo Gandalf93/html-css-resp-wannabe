@@ -80,7 +80,15 @@ img {
   #lezioni .row>.right {
     width: unset;
     float: none;
-    background-color: #F2F2CD;
+}
+
+.row{
+  background-color: #F2F2CD;
+  margin-top: 0px;
+}
+
+#steps .row{
+  background-color: white;
 }
 
 #steps .row>.left,
@@ -91,9 +99,7 @@ img {
   background-color: white;
 }
 
-.container.grey {
-  background-color: #F2F2CD;
-}
+
 
   .row::after{
     display: block;
